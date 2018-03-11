@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'CKTrends_Example' do
   pod 'CKTrends', :path => '../'
+  pod 'Firebase', '~>4.8.0'
 
   target 'CKTrends_Tests' do
     inherit! :search_paths

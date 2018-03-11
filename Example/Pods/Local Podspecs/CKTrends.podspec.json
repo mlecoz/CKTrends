@@ -1,0 +1,27 @@
+{
+  "name": "CKTrends",
+  "version": "0.1.0",
+  "summary": "An API enabling tracking of your CloudKit database",
+  "description": "CKTrends is an API that enables you to track your CloudKit database, in conjunction with the CKTrends iOS app.\nTo gain ad hoc access to this app, please email cktrends1@gmail.com. Simply add this pod to the app whose trends you want to track, make the appropriate API calls, tap Refresh in the CKTrends app, and you'll be viewing your CloudKit statistics in no time!",
+  "homepage": "https://github.com/mlecoz/CKTrends",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mlecoz": "Marissa.C.Le.Coz.17@dartmouth.edu"
+  },
+  "source": {
+    "git": "https://github.com/mlecoz/CKTrends.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CKTrends/Classes/*.swift",
+  "dependencies": {
+    "Firebase": [
+      "~> 4.8.0"
+    ]
+  }
+}
