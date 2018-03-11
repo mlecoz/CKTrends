@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		069A39E86CCA87CA1799DE1939C8D247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		08D9928CE305EAFB5FAD3B80226D45A5 /* CKTrends-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0174FEC6F6E0F4753E92454A80CAB /* CKTrends-dummy.m */; };
+		0C058771D0284A7704D22FAC73AB2A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		19664B19F791F628500E40464EBF608E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1B3D312120F39D1145CC0359AC5D3895 /* CKTrends-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0174FEC6F6E0F4753E92454A80CAB /* CKTrends-dummy.m */; };
 		1EE7BF36363FCC4579419B23AF0AFC4C /* Pods-CKTrends_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C018485CA15032D15E9BFA5D0DD17054 /* Pods-CKTrends_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3E28FC93E46C4778C303626C7CA9AB /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFAA5C3128F2005ADECFD36E2085DC /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = CB1DA5FCB6FC9EDA0D22883C685735B5 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
 		468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CF7FC5E92D31F27BC038941EA6A5A /* nanopb-dummy.m */; };
+		476665CD6B72A0240E5EBD01929EC444 /* CKTrendsUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6802AB3D46DA407DFD5ECDD3AB9C2DF0 /* CKTrendsUtilities.swift */; };
 		4FE92BECA6259C9C4A514FCC3991F286 /* Pods-CKTrends_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C7C45F31EB652454E6EB9A9121B77 /* Pods-CKTrends_Tests-dummy.m */; };
 		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E042612013FB6CD86A7F8229AA61BE1 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = AA70056BAD8EA3D683367B686F1E6B09 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
 		55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = AF577CB3FB3CA827E64E6F3625F4804A /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
 		62DD7C7EB75A2EFAF26C2F7AAF1A83D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6D6279DCD96A7EFF9BFE8B6FF10F8A89 /* Pods-CKTrends_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22331FFE2C98E32338C0FADADE345872 /* Pods-CKTrends_Example-dummy.m */; };
+		714FD4A1E0D74E02A6E7F73461DB8904 /* CKTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB0D928255061FA3AAFFA1146D49B7 /* CKTrends.swift */; };
 		806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 841E491E4F984559D8FACA8D9B180DBA /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9DDF1EF2BBAE154BC6081D24CB6369 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C27BD7AD775023188BB2A50748D6F49 /* CKTrends-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DDBAE825524460BB1CB650EA68033D /* CKTrends-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2456CC1C82436679899241E03DB9919 /* Pods-CKTrends_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A00F9ECC1192F31100D14C41761C9122 /* Pods-CKTrends_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6DCD06354C0343CBF8224BF89CC5BF8 /* CKTrends-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DDBAE825524460BB1CB650EA68033D /* CKTrends-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = EA772F7A06348F33C61B7286F52EEF50 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9E8F12766FD7202402AD690FB605B6 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E19D02062054FF15009FC2D8 /* CKTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D02052054FF15009FC2D8 /* CKTrends.swift */; };
-		E19D02082054FF22009FC2D8 /* CKTrendsUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D02072054FF22009FC2D8 /* CKTrendsUtilities.swift */; };
-		E25781DCC4DBA0440D14F265EAEEA0E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F6156B8D6D3DD90AEE4394E6A26A89FE /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6F39ECB24CE5CFAA775B1CC1E891D9 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C5F864762B7FE38AA845332172DE9 /* GoogleToolboxForMac-dummy.m */; };
@@ -41,7 +41,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4170173F21CBD999E49F8A46902DF915;
+			remoteGlobalIDString = 270871A1C2604BCEC86DA0E06B388DE4;
 			remoteInfo = CKTrends;
 		};
 		E9B69229FFF6BFD9B12716EB89387730 /* PBXContainerItemProxy */ = {
@@ -66,33 +66,35 @@
 		18CBDB8D9B1F1C452F8C921200EDC06C /* Pods-CKTrends_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKTrends_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BE17DCBD86A63CB4D011248845326AF /* Pods-CKTrends_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKTrends_Tests-resources.sh"; sourceTree = "<group>"; };
 		22331FFE2C98E32338C0FADADE345872 /* Pods-CKTrends_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKTrends_Example-dummy.m"; sourceTree = "<group>"; };
-		239C82A77699A31C66935DCAE2888A5D /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		268C51C65C872D018B03896B1A74314F /* CKTrends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKTrends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		239C82A77699A31C66935DCAE2888A5D /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		268C51C65C872D018B03896B1A74314F /* CKTrends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CKTrends.framework; path = CKTrends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FFC1371E8284CB134602E836D04D07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EB0D928255061FA3AAFFA1146D49B7 /* CKTrends.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CKTrends.swift; sourceTree = "<group>"; };
 		4B7236B9B35B25C377B145591377CCD7 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
 		4C9CF7FC5E92D31F27BC038941EA6A5A /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
 		4E042612013FB6CD86A7F8229AA61BE1 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		505C5F864762B7FE38AA845332172DE9 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		5262F2A678BC33E9009A862593FB0D08 /* Pods-CKTrends_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKTrends_Example.modulemap"; sourceTree = "<group>"; };
+		5262F2A678BC33E9009A862593FB0D08 /* Pods-CKTrends_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CKTrends_Example.modulemap"; sourceTree = "<group>"; };
 		56CAA223ED48671D00B612679A4CFF93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5781526AD437A00C4907E175A1F9B824 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		5857319B3AF21174742939162D58FA56 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		5ACADB9EF2837349C2A5F44E67B33B53 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		5ACADB9EF2837349C2A5F44E67B33B53 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
 		5B483E3746BE54718B9D4A2E58B0C60B /* Pods-CKTrends_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKTrends_Example-frameworks.sh"; sourceTree = "<group>"; };
 		617EE24305B41ADD6123633BF3E35E3B /* Pods-CKTrends_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKTrends_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6802AB3D46DA407DFD5ECDD3AB9C2DF0 /* CKTrendsUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CKTrendsUtilities.swift; sourceTree = "<group>"; };
 		69CEDF94F04F5D04143F4F3100A4B9C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BEDCF10F489DF81E08A0F11FD99E611 /* CKTrends.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CKTrends.modulemap; sourceTree = "<group>"; };
+		6BEDCF10F489DF81E08A0F11FD99E611 /* CKTrends.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CKTrends.modulemap; sourceTree = "<group>"; };
 		6DC0174FEC6F6E0F4753E92454A80CAB /* CKTrends-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKTrends-dummy.m"; sourceTree = "<group>"; };
-		720EABE8C90A8B9B4A5311DC4BB1060F /* Pods_CKTrends_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKTrends_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720EABE8C90A8B9B4A5311DC4BB1060F /* Pods_CKTrends_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CKTrends_Example.framework; path = "Pods-CKTrends_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72224E5E74EFE503C6A1CDE6753CE582 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		76AFAA5C3128F2005ADECFD36E2085DC /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
 		7B9DDF1EF2BBAE154BC6081D24CB6369 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
 		7E3E28FC93E46C4778C303626C7CA9AB /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
 		841E491E4F984559D8FACA8D9B180DBA /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
 		86DDBAE825524460BB1CB650EA68033D /* CKTrends-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKTrends-umbrella.h"; sourceTree = "<group>"; };
-		87B8D9F138FBE3AA4A479CDBF26E5D96 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B8D9F138FBE3AA4A479CDBF26E5D96 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0A0B2F788848A43580C8F3FBBA24D7 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93EF7BAD6A234AE3CA4DA3832796143E /* Pods-CKTrends_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKTrends_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96DE222DE413BDFDBA6170A07CC97B8D /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		9824C86FEA83EA78AE64E8EA46915CD1 /* Pods-CKTrends_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKTrends_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,23 +103,21 @@
 		9FB1A3C880ADB7864814E9BC02B4ADE3 /* CKTrends-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKTrends-prefix.pch"; sourceTree = "<group>"; };
 		A00F9ECC1192F31100D14C41761C9122 /* Pods-CKTrends_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKTrends_Example-umbrella.h"; sourceTree = "<group>"; };
 		A0AC6C70DD1289F3BD744B8769B5C180 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1C76F4AF98F7D6A2D491BD1559D36B6 /* Pods-CKTrends_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKTrends_Tests.modulemap"; sourceTree = "<group>"; };
-		AA70056BAD8EA3D683367B686F1E6B09 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
+		A1C76F4AF98F7D6A2D491BD1559D36B6 /* Pods-CKTrends_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CKTrends_Tests.modulemap"; sourceTree = "<group>"; };
+		AA70056BAD8EA3D683367B686F1E6B09 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
 		AEDD8A5ACEA26AEC21A6929873F07EEE /* Pods-CKTrends_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKTrends_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AF577CB3FB3CA827E64E6F3625F4804A /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
-		B687DF4C159817B6FA83BB7CB7C8D369 /* Pods_CKTrends_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKTrends_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF577CB3FB3CA827E64E6F3625F4804A /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		B687DF4C159817B6FA83BB7CB7C8D369 /* Pods_CKTrends_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CKTrends_Tests.framework; path = "Pods-CKTrends_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFCF1CDA7C62ED440C8DDEC07C8B1F8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		BF1A6257C603208E8F69C1551B338D30 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = nanopb.modulemap; sourceTree = "<group>"; };
+		BF1A6257C603208E8F69C1551B338D30 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = nanopb.modulemap; sourceTree = "<group>"; };
 		C018485CA15032D15E9BFA5D0DD17054 /* Pods-CKTrends_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKTrends_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C27EFE4D267CB0D44B49381B1EC19A6D /* Pods-CKTrends_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKTrends_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5E2A5B1C2AE7848F1C2F14114B2B978 /* Pods-CKTrends_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKTrends_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C94C11B588CD96E6E8FB581470E2B205 /* Pods-CKTrends_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKTrends_Example-resources.sh"; sourceTree = "<group>"; };
-		CB1DA5FCB6FC9EDA0D22883C685735B5 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
+		CB1DA5FCB6FC9EDA0D22883C685735B5 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D61D0D5052323E3EFCC00D50407A865E /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		DD9E8F12766FD7202402AD690FB605B6 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
-		E19D02052054FF15009FC2D8 /* CKTrends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTrends.swift; sourceTree = "<group>"; };
-		E19D02072054FF22009FC2D8 /* CKTrendsUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTrendsUtilities.swift; sourceTree = "<group>"; };
 		E58CD17F9045412F31091307A25159BC /* Pods-CKTrends_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKTrends_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E659260E0916AB51199ACB8A25694DB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA772F7A06348F33C61B7286F52EEF50 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
@@ -127,14 +127,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7AA80BCD2C115B7DF80F676920DBDA22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E25781DCC4DBA0440D14F265EAEEA0E9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		971041836592E28ADEEDA495A96A62A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +140,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				069A39E86CCA87CA1799DE1939C8D247 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD6F80158F1540B7FB5A8F994383CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C058771D0284A7704D22FAC73AB2A63 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +184,7 @@
 				DDAA44E2142E64238AC963E5FEE6F255 /* encode */,
 				E2263F271769C0C11030EBFC54582B2D /* Support Files */,
 			);
+			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -192,6 +193,7 @@
 			children = (
 				9423BF591DA4C65CAEC62D1E98DA477F /* Frameworks */,
 			);
+			name = FirebaseInstanceID;
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
@@ -315,6 +317,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A12119F52F13EFFE0384D174227A4B2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46EB0D928255061FA3AAFFA1146D49B7 /* CKTrends.swift */,
+				6802AB3D46DA407DFD5ECDD3AB9C2DF0 /* CKTrendsUtilities.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A31CE44F23BD44F7DAAFB31F03A5A658 /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +349,7 @@
 			children = (
 				47E42F7301DFDDB7D62E990526701C4F /* Frameworks */,
 			);
+			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
@@ -346,14 +359,6 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0EEDEBFB5FB8C9D9ECAA01D92B2DCE6 /* CKTrends */ = {
-			isa = PBXGroup;
-			children = (
-				DDB80C0FD1C1F01C529E5A498621622E /* Classes */,
-			);
-			path = CKTrends;
 			sourceTree = "<group>";
 		};
 		CD094E7EC968B20A7412F653B9190EB1 /* Products */ = {
@@ -386,6 +391,7 @@
 			children = (
 				7FE25D69C3023269B595924C6F0132A8 /* Core */,
 			);
+			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
@@ -394,6 +400,7 @@
 			children = (
 				B248CDB646D7C75A266CD3110AF1E8FD /* Frameworks */,
 			);
+			name = FirebaseCore;
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
@@ -404,19 +411,10 @@
 			name = encode;
 			sourceTree = "<group>";
 		};
-		DDB80C0FD1C1F01C529E5A498621622E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E19D02052054FF15009FC2D8 /* CKTrends.swift */,
-				E19D02072054FF22009FC2D8 /* CKTrendsUtilities.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		E049B2ACC50D733E423BBEC253A77E1F /* CKTrends */ = {
 			isa = PBXGroup;
 			children = (
-				C0EEDEBFB5FB8C9D9ECAA01D92B2DCE6 /* CKTrends */,
+				FEB2BB9A74C121C0D9B7DCBC7AE8F1D1 /* CKTrends */,
 				80D1021AF0DC0EB086C5E9BF09D4C6B6 /* Support Files */,
 			);
 			name = CKTrends;
@@ -459,6 +457,15 @@
 			name = Defines;
 			sourceTree = "<group>";
 		};
+		FEB2BB9A74C121C0D9B7DCBC7AE8F1D1 /* CKTrends */ = {
+			isa = PBXGroup;
+			children = (
+				A12119F52F13EFFE0384D174227A4B2B /* Classes */,
+			);
+			name = CKTrends;
+			path = CKTrends;
+			sourceTree = "<group>";
+		};
 		FF8C567B4D0A26B622469EC328AEB1EF /* GoogleToolboxForMac */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +473,7 @@
 				A31CE44F23BD44F7DAAFB31F03A5A658 /* NSData+zlib */,
 				E91EC75B28AD480FFDC1E0CB5FE25045 /* Support Files */,
 			);
+			name = GoogleToolboxForMac;
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
@@ -492,11 +500,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666B300B13D8A49EAE6400A5067EDEFE /* Headers */ = {
+		866660D2D094334EAC0F01F0D19F9CEC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DCD06354C0343CBF8224BF89CC5BF8 /* CKTrends-umbrella.h in Headers */,
+				9C27BD7AD775023188BB2A50748D6F49 /* CKTrends-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,13 +546,13 @@
 			productReference = 87B8D9F138FBE3AA4A479CDBF26E5D96 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4170173F21CBD999E49F8A46902DF915 /* CKTrends */ = {
+		270871A1C2604BCEC86DA0E06B388DE4 /* CKTrends */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1245B06E8443E7C96FE395C104444AB5 /* Build configuration list for PBXNativeTarget "CKTrends" */;
+			buildConfigurationList = 1C1E1E787AAB78E41E3F1B7BD180A390 /* Build configuration list for PBXNativeTarget "CKTrends" */;
 			buildPhases = (
-				1A5904FC28B5659CA99CB4031D39F5EC /* Sources */,
-				7AA80BCD2C115B7DF80F676920DBDA22 /* Frameworks */,
-				666B300B13D8A49EAE6400A5067EDEFE /* Headers */,
+				F6589ED9B318DD86100D746471196F5C /* Sources */,
+				ABD6F80158F1540B7FB5A8F994383CE6 /* Frameworks */,
+				866660D2D094334EAC0F01F0D19F9CEC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -617,11 +625,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					4170173F21CBD999E49F8A46902DF915 = {
-						LastSwiftMigration = 0910;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -635,7 +638,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4170173F21CBD999E49F8A46902DF915 /* CKTrends */,
+				270871A1C2604BCEC86DA0E06B388DE4 /* CKTrends */,
 				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
 				E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */,
 				FF551EB5736A5607B245B50C53FCBB32 /* Pods-CKTrends_Example */,
@@ -645,16 +648,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A5904FC28B5659CA99CB4031D39F5EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08D9928CE305EAFB5FAD3B80226D45A5 /* CKTrends-dummy.m in Sources */,
-				E19D02062054FF15009FC2D8 /* CKTrends.swift in Sources */,
-				E19D02082054FF22009FC2D8 /* CKTrendsUtilities.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		238527BE8D494586023F2A2B8A60D242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -691,6 +684,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6589ED9B318DD86100D746471196F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3D312120F39D1145CC0359AC5D3895 /* CKTrends-dummy.m in Sources */,
+				714FD4A1E0D74E02A6E7F73461DB8904 /* CKTrends.swift in Sources */,
+				476665CD6B72A0240E5EBD01929EC444 /* CKTrendsUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -703,7 +706,7 @@
 		8B7C31B9D1DA6AD7D5C28E06454CC33B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CKTrends;
-			target = 4170173F21CBD999E49F8A46902DF915 /* CKTrends */;
+			target = 270871A1C2604BCEC86DA0E06B388DE4 /* CKTrends */;
 			targetProxy = D88FDCDAEB380DFD2EECD793542FDF29 /* PBXContainerItemProxy */;
 		};
 		ACDF4E390735AE4F0E69919F61501EE0 /* PBXTargetDependency */ = {
@@ -858,40 +861,6 @@
 			};
 			name = Debug;
 		};
-		3DBBF82A440FE288D5D6323EF6F0757E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF15EAC43D3B01FC785E5AAEDAAB9629 /* CKTrends.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CKTrends/CKTrends-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CKTrends/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CKTrends/CKTrends.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CKTrends;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		47F5AABF516082BF65009FEEBBABE6CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D2DD4CEEA2F3CCD66E2A4E58FD3CB27 /* Pods-CKTrends_Example.release.xcconfig */;
@@ -926,6 +895,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6C9761180986D083AA77ED9119FDB25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF15EAC43D3B01FC785E5AAEDAAB9629 /* CKTrends.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKTrends/CKTrends-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKTrends/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKTrends/CKTrends.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CKTrends;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		747662621B7D287571213DF1B04B8E52 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -962,39 +964,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9598075FB5D6C4297CAD49E6C749D1E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF15EAC43D3B01FC785E5AAEDAAB9629 /* CKTrends.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CKTrends/CKTrends-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CKTrends/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CKTrends/CKTrends.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CKTrends;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A01D870F497334175A7927F8897D5875 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1095,6 +1064,38 @@
 			};
 			name = Debug;
 		};
+		D28771716D2929DBD9E99AA9AD1825DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF15EAC43D3B01FC785E5AAEDAAB9629 /* CKTrends.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKTrends/CKTrends-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKTrends/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKTrends/CKTrends.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CKTrends;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1138,11 +1139,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1245B06E8443E7C96FE395C104444AB5 /* Build configuration list for PBXNativeTarget "CKTrends" */ = {
+		1C1E1E787AAB78E41E3F1B7BD180A390 /* Build configuration list for PBXNativeTarget "CKTrends" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DBBF82A440FE288D5D6323EF6F0757E /* Debug */,
-				9598075FB5D6C4297CAD49E6C749D1E3 /* Release */,
+				6C9761180986D083AA77ED9119FDB25B /* Debug */,
+				D28771716D2929DBD9E99AA9AD1825DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

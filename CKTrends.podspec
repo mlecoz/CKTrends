@@ -31,7 +31,7 @@ s.source           = { :git => 'https://github.com/mlecoz/CKTrends.git', :tag =>
 
 s.ios.deployment_target = '10.0'
 
-s.source_files = 'CKTrends/Classes/*.swift'
+s.source_files = 'CKTrends/Classes/**/*.swift'
 
 # s.resource_bundles = {
 #   'CKTrends' => ['CKTrends/Assets/*.png']

@@ -14,7 +14,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AA32D142E74BE96F3CD82DB0 /* Pods_CKTrends_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E498C52055C5AA0059AB33 /* Pods_CKTrends_Tests.framework */; };
 		B98D5CA047430DBF51A6781A /* Pods_CKTrends_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373978842335DFD2A6E663DE /* Pods_CKTrends_Example.framework */; };
+		E1E498C02055C5A20059AB33 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E498C12055C5A20059AB33 /* nanopb.framework */; };
+		E1E498C22055C5A60059AB33 /* CKTrends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E498C32055C5A60059AB33 /* CKTrends.framework */; };
+		E1E498C42055C5AA0059AB33 /* Pods_CKTrends_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E498C52055C5AA0059AB33 /* Pods_CKTrends_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A8C3BA2AD610820D12171D22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE71D26F5C7A5776C9176A64 /* Pods_CKTrends_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKTrends_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E498BF2055C59F0059AB33 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E498C12055C5A20059AB33 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E498C32055C5A60059AB33 /* CKTrends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CKTrends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E498C52055C5AA0059AB33 /* Pods_CKTrends_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CKTrends_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E2A8ADDA65865161661B6D /* CKTrends.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CKTrends.podspec; path = ../CKTrends.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E498C42055C5AA0059AB33 /* Pods_CKTrends_Tests.framework in Frameworks */,
+				E1E498C22055C5A60059AB33 /* CKTrends.framework in Frameworks */,
+				E1E498C02055C5A20059AB33 /* nanopb.framework in Frameworks */,
 				B98D5CA047430DBF51A6781A /* Pods_CKTrends_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				064BBDEB8DBBDA4EC79D6ADB /* Pods_CKTrends_Tests.framework in Frameworks */,
+				AA32D142E74BE96F3CD82DB0 /* Pods_CKTrends_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +165,10 @@
 		FD249B565E95F60786ABBE7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1E498C52055C5AA0059AB33 /* Pods_CKTrends_Tests.framework */,
+				E1E498C32055C5A60059AB33 /* CKTrends.framework */,
+				E1E498C12055C5A20059AB33 /* nanopb.framework */,
+				E1E498BF2055C59F0059AB33 /* GoogleToolboxForMac.framework */,
 				373978842335DFD2A6E663DE /* Pods_CKTrends_Example.framework */,
 				AE71D26F5C7A5776C9176A64 /* Pods_CKTrends_Tests.framework */,
 			);
@@ -449,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -495,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -508,10 +524,49 @@
 			baseConfigurationReference = 32DFFC9D0B1C094DF3639345 /* Pods-CKTrends_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"$(SRCROOT)/Pods/**",
+				);
 				INFOPLIST_FILE = CKTrends/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CKTrends\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"nanopb\"",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -524,10 +579,49 @@
 			baseConfigurationReference = 15982E7269CC07269A77A218 /* Pods-CKTrends_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"$(SRCROOT)/Pods/**",
+				);
 				INFOPLIST_FILE = CKTrends/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CKTrends\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"nanopb\"",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

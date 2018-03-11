@@ -7,15 +7,25 @@
 //
 
 import UIKit
+import CKTrends
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    var ckTrends: CKTrends?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.ckTrends = CKTrends(containerName: "iCloud.com.MarissaLeCozz.SampleDeveloperApp", window: window!, appID: "1", recordTypesToTrack: ["Blah1", "Users", "Blah", "RecordTypeA", "RecordTypeB"], listsToTrack: ["ListType", "list"])
+        return true
+    }
+    
+    // This function is called when another app on the device opens the URL for this app.
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        ckTrends?.appWasOpened(options: options)
         return true
     }
 
