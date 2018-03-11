@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CKTrends_Example' do
+  pod 'CKTrends', :path => '../'
+
+  target 'CKTrends_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
